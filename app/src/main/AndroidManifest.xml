@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GruopAssignment">
         <activity
+            android:name=".ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TextReaderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContentReaderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BarcodeReaderActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
